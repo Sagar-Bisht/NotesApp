@@ -28,5 +28,4 @@ class NetworkModule {
     fun providesUserAPI(retrofit: Retrofit): UserAPI {
         return retrofit.create(UserAPI::class.java)
     }
-
 }
